@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Parallax Scrolling effects pure CSS</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <video src="video/vid.mp4" autoplay muted loop></video>
+    <div class="container">
+
+        <div class="title">
+            <h3>Simple</h3>
+            <h1>Parallax</h1>
+            <h3>Effect</h3>
+        </div>
+
+        <audio id="myaudio">
+            <source src="audio/Sugar.mp3" type="audio/mp3">
+        </audio>
+    
+        <img onmouseover="PlaySound('myaudio')"
+        onmouseout="StopSound('myaudio')" id="snail" src="img/snail.gif" alt="snail"></img>
+
+<h1 id="changetext">Click here</h1>
+        <div class="pa parallax">
+            <div class="bg">
+                <h2>Paris</h2>
+                <p>The streets of paris</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae justo nec dui tincidunt
+                    fringilla quis a urna.
+                    Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam venenatis tellus eu rhoncus
+                    facilisis. Praesent ornare ut nulla vitae dapibus. Donec ac nisi vitae turpis hendrerit feugiat.
+                    Aenean tristique felis nisi, a finibus ante mollis in. Sed tortor mi, sagittis at aliquet quis,
+                    scelerisque vel justo. Maecenas porta erat id vestibulum egestas.</p>
+            </div>
+        </div>
+
+        <div class="between">
+            <div class="title middle">
+                <h1>Isn't</h1>
+            </div>
+        </div>
+
+        <div class="ist parallax">
+            <div class="bg">
+                <h2>Istanbul</h2>
+            </div>
+        </div>
+
+        <div class="between">
+            <div class="title middle">
+                <h1>This</h1>
+            </div>
+        </div>
+
+        <div class="fir parallax">
+            <div class="bg">
+                <h2>Firenze</h2>
+            </div>
+        </div>
+
+        <div class="between">
+            <div class="title middle">
+                <h1>Awesome</h1>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
